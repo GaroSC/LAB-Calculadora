@@ -1,5 +1,5 @@
-let numero1 = prompt("Ingrese el primer número: ");
-let numero2 = prompt("Ingrese el segundo número: ");
+let numero1 = parseFloat(prompt("Ingrese el primer número: "));
+let numero2 = parseFloat(prompt("Ingrese el segundo número: "));
 
 function sumaFuncion(numero1, numero2) {
     return numero1 + numero2;
